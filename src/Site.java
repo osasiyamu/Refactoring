@@ -9,4 +9,16 @@ public class Site {
         this.TAX_RATE = 0.13;
     }
 
+    public double getBillableAmount(){
+        return 0.1;
+    }
+
+    public double getBaseAmount(){
+        return 0.1;
+    }
+
+    public double getTaxAmount(){
+        return 0.1;
+    }
+
 }
