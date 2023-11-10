@@ -10,7 +10,7 @@ public class Site {
     }
 
     public double getBillableAmount(){
-        return 0.1;
+        return getBaseAmount() + getTaxAmount();
     }
 
     public double getBaseAmount(){
